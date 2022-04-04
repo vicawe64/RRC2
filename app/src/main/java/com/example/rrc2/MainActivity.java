@@ -66,4 +66,17 @@ public class MainActivity extends AppCompatActivity implements rvCodesAdapter.It
     public void onItemClick(View view, int position) {
     }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+
+        // Cleaning the search field and (automatically) re-populating the list
+        etCode.setText((CharSequence) "");
+    }
+
+    public void cleanETCode(View view) {
+        // Cleaning the search field and (automatically) re-populating the list
+        etCode.setText((CharSequence) "");
+    }
+
 }

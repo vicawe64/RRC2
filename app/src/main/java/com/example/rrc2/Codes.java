@@ -28,7 +28,7 @@ public class Codes {
         try {
             splitter.setString(strCodesToSplit);
             while (splitter.hasNext()) {
-                aCodes.add(splitter.next());
+                aCodes.add(splitter.next().trim());
             }
         } catch (Exception e){
             aCodes.add(e.getMessage());
