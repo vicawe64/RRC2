@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Russia\'s Region Codes</string>
+    <string name="main_menu_name">About</string>
+    <string name="version_template">Version: </string>
+
     <string name="codes">01, 101 - Республика Адыгея\n
 02, 102, 702 - Республика Башкортостан\n
 03 - Республика Бурятия\n
